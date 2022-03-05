@@ -1,0 +1,38 @@
+.textarea__container > textarea {
+  width: 100%;
+  margin: 7px 0;
+  border: 0.5px solid #b1b1b1;
+  padding: 2px 5px;
+  border-radius: 2px;
+}
+.note__titile{
+  width: 100%;
+  height: 36px;
+  padding: 2px 5px;
+  font-size: 16px;
+  border: 0.5px solid #b1b1b1;
+  border-radius: 2px;
+}
+h3{
+  margin: 5px 0;
+}
+.btn__conatiner {
+  display: flex;
+  flex-direction: row;
+}
+.btn {
+  background-color: #329bf1;
+  color: white;
+  width: auto;
+  padding: 5px;
+  font-weight: 500;
+  font-size: 15px;
+  border-radius: 3px;
+  margin: 0 4px;
+  cursor: pointer;
+  border: none;
+}
+textarea{
+  font-size: 16px;
+}
+

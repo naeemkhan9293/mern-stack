@@ -1,0 +1,22 @@
+.notes__container {
+  display: grid;
+  height: auto;
+  grid-template-rows: repeat(3, 1fr);
+  border-radius: 5px;
+  border: 1px solid #ddd9d9;
+}
+
+.notes__info {
+  grid-row: 1 / span 3;
+  margin: 0 8px;
+}
+.btn__container button {
+  width: 53px;
+  font-size: 14px;
+  background-color: #4473b9;
+  height: 20px;
+  border: none;
+  margin: 9px 8px;
+  border-radius: 2px;
+  color: white;
+}

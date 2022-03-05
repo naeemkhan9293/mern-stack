@@ -1,0 +1,56 @@
+/* css for modal */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: #000000;
+  background-color: #00000066;
+}
+.modal__content {
+  background-color: #fefefe;
+
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 45%;
+}
+
+.update__note {
+  color: #fff;
+  margin-top: 10px;
+  font-size: 13px;
+  font-weight: 100;
+  background-color: #29456f;
+  border: none;
+  padding: 4px;
+}
+.update__note:hover,
+.update__note:focus {
+  color: black;
+  text-decoration: none;
+  background: none;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input {
+  height: 31px;
+  padding: 0px 10px;
+  font-size: 15px;
+}
+form * {
+  margin: 3px 0;
+}
+.close__btn{
+  margin-left: 5px;
+}

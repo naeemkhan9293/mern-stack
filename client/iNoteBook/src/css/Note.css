@@ -1,0 +1,17 @@
+.Note__container {
+  margin: 24px 0;
+}
+.notesItem__container {
+  width: 70vw;
+  margin: 10px auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 3rem;
+}
+
+@media only screen and (max-width: 396px) {
+  .newsItem__container {
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+  }
+}
+

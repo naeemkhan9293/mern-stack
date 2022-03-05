@@ -1,0 +1,40 @@
+/* Full-width inputs */
+.login__Container input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+.Login_btn {
+  background-color: #329bf1;
+  color: white;
+  padding: 7px 6px;
+  margin: 6px auto;
+  border: none;
+  cursor: pointer;
+  width: 100px;
+  font-size: 17px;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+/* Add padding to containers */
+.login__Container {
+  padding: 16px;
+  padding: 16px;
+  width: 59vw;
+  margin: auto;
+}
+
+/* The "Forgot password" text */
+span.psw {
+  float: right;
+  padding-top: 16px;
+}
